@@ -144,7 +144,7 @@ with tabs[1]:
         height_above = st.number_input("Height Above Wall (ft)", min_value=0.0, key=f"ht_{i}")
         cat_sections.append((length, base_width, height_above))
 
-    st.subheader("Joist Spacing for Cathedrals")
+    st.subheader("Truss Spacing for Cathedrals")
     cat_spacing_in = st.selectbox("Spacing (inches)", [16, 24])
 
     st.subheader("Blown-In Ceiling")
